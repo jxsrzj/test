@@ -47,3 +47,26 @@ $ git config --global user.name 'your Name'
 $ git commit -m '....'
 ```
 
+- 查看提交日志
+```shell
+$ git log
+```
+
+- 回到指定版本
+```shell
+$ git reset --hard 
+```
+
+- 对比差异
+```shell
+$ git diff
+```
+
+### github是什么？
+- 只是一个网站
+- 同性交友社区 都是程序员。
+- https://github.com/
+- 提出概念 社交化编程
+- github和git的关系？
+- 它是git的服务提供商，提供了free仓库 - 前提，开源
+
