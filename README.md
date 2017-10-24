@@ -36,6 +36,12 @@ $ git add --all  &&  git add .
 在代码库文件夹的根目录添加一个.gitignore文件
 该文件用于说明忽略的文件有哪些
 
+- 设置名字和email
+```shell
+$ git config --global user.email 'you@email.com'
+$ git config --global user.name 'your Name'
+```
+
 - 提交被托管的代码变化到本地仓库
 ```shell
 $ git commit -m '....'
